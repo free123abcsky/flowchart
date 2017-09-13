@@ -1,0 +1,150 @@
+{
+	"result" : true,
+	"state" : 0,
+	"list" : [
+		{
+			"ID" : "jsPlumb_0",
+			"taskID" : "jsPlumb_0_ttt",
+			"type" : "Start",
+			"parentClass" : "process",
+			"text" : "开始任务",
+			"state" : 1,
+			"targetId" : ["jsPlumb_1","jsPlumb_4"],
+			"left": 50,
+			"top": 50,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_1",
+			"taskID" : "jsPlumb_1_ttt",
+			"type" : "Time",
+			"parentClass" : "process",
+			"text" : "text1",
+			"state" : 1,
+			"targetId" : ["jsPlumb_2","jsPlumb_6","jsPlumb_5"],
+			"left": 150,
+			"top": 150,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_2",
+			"taskID" : "jsPlumb_2_ttt",
+			"type" : "Time",
+			"parentClass" : "process",
+			"text" : "text2",
+			"state" : 0,
+			"targetId" : ["jsPlumb_3"],
+			"left": 350,
+			"top": 250,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_3",
+			"taskID" : "jsPlumb_3_ttt",
+			"type" : "OrderSearch",
+			"parentClass" : "screen",
+			"text" : "text3",
+			"state" : 0,
+			"targetId" : ["jsPlumb_7"],
+			"left": 550,
+			"top": 250,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_4",
+			"taskID" : "jsPlumb_4_ttt",
+			"type" : "OrderSearch",
+			"parentClass" : "screen",
+			"text" : "text4",
+			"state" : 0,
+			"targetId" : [],
+			"left": 250,
+			"top": 50,
+			"userNum" : 60060
+		},
+		{
+			"ID" : "jsPlumb_5",
+			"taskID" : "jsPlumb_5_ttt",
+			"type" : "GroupSearch",
+			"parentClass" : "screen",
+			"text" : "text5",
+			"state" : 0,
+			"targetId" : ["jsPlumb_7"],
+			"left": 550,
+			"top": 50,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_6",
+			"taskID" : "jsPlumb_6_ttt",
+			"type" : "ManualSearch",
+			"parentClass" : "screen",
+			"text" : "text6",
+			"state" : 0,
+			"targetId" : ["jsPlumb_7"],
+			"left": 550,
+			"top": 150,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_7",
+			"taskID" : "jsPlumb_7_ttt",
+			"type" : "Sms",
+			"parentClass" : "send",
+			"text" : "text7",
+			"state" : 0,
+			"targetId" : ["jsPlumb_8"],
+			"left": 750,
+			"top": 150,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_8",
+			"taskID" : "jsPlumb_8_ttt",
+			"type" : "ReportActivity",
+			"parentClass" : "report",
+			"text" : "text8",
+			"state" : 0,
+			"targetId" : [],
+			"left": 900,
+			"top": 150,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_9",
+			"taskID" : "jsPlumb_9_ttt",
+			"type" : "Split",
+			"parentClass" : "filter",
+			"text" : "拆分",
+			"state" : 0,
+			"targetId" : ["jsPlumb_10","jsPlumb_11"],
+			"left" : 350,
+			"top" : 400,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_10",
+			"taskID" : "jsPlumb_10_ttt",
+			"type" : "Results",
+			"parentClass" : "filter",
+			"text" : "拆分结果1",
+			"state" : 0,
+			"targetId" : [],
+			"left" : 550,
+			"top" : 350,
+			"userNum" : false
+		},
+		{
+			"ID" : "jsPlumb_11",
+			"taskID" : "jsPlumb_11_ttt",
+			"type" : "Results",
+			"parentClass" : "filter",
+			"text" : "拆分结果2",
+			"state" : 0,
+			"targetId" : [],
+			"left" : 550,
+			"top" : 450,
+			"userNum" : false
+		}
+	]
+}

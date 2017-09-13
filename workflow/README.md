@@ -1,0 +1,31 @@
+WorkFlost última versión. last version.
+========
+[Última version, last version](https://github.com/dvdeveloperlab/UseCase)
+
+WorkFlow DEPRECADO (DEPRECATED)
+========
+
+ Demo Workflow editor + bootstrap + jsPlumb + JQuery ContentMenu
+ 
+ [Puedes ver el demo aquí](http://dvdeveloper.github.io/WorkFlow/)
+
+Librerías a utilizar
+--------------------------------------
+
+1.  Jquery
+2.  jsPlumb
+3.  Jquery ContentMenu
+4.  Bootstrap 3
+
+El proyecto incluye
+--------------------------------------
+1. Creación de actores
+2. Creación de caso de uso
+3. Drag & Drop
+4. Tipos de conectores
+5. Eliminación de nodos y conexiones (botón suprimir)
+
+
+Imagenes y Demo
+--------------------------------------
+![Alt text](http://www.subeimagenes.com/img/foto1-888694.jpg "Caso de uso")
